@@ -45,10 +45,10 @@ def cors_preflight():
     return ("", 204)
 
 # Configuration Supabase
-SUPABASE_URL = os.getenv("SUPABASE_URL", "https://api.recube.gg/")
-SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY", "")
-SUPABASE_SERVICE_ROLE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY", "")
-SUPABASE_AUTH_JWT_SECRET = os.getenv("SUPABASE_AUTH_JWT_SECRET", "")
+SUPABASE_URL = "https://myalumni.ukm.my:8443"
+SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzYwNDU3NjAwLCJleHAiOjE5MTgyMjQwMDB9.j-FM9eErFh3gJ6xvGX3dP_Mt-EnSsj12oFoyc4OGa6k"
+SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoic2VydmljZV9yb2xlIiwiaXNzIjoic3VwYWJhc2UiLCJpYXQiOjE3NjA0NTc2MDAsImV4cCI6MTkxODIyNDAwMH0.IZeeps1lX9gt4UfX3jBd6OZYT1NDb0sp66zfhDpNgbo"
+SUPABASE_AUTH_JWT_SECRET = "kC0Me81kfmegmCxIub5E5eUPUnzQI4M3Ib6i3egH"
 
 # Configuration MCP
 MCP_SERVER_NAME = os.getenv("MCP_SERVER_NAME", "Supabase MCP Server")
