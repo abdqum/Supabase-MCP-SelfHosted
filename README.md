@@ -1,4 +1,5 @@
 # Supabase MCP Server - Self-Hosted Edition
+[![smithery badge](https://smithery.ai/badge/@abdqum/supabase-mcp-selfhosted)](https://smithery.ai/server/@abdqum/supabase-mcp-selfhosted)
 
 🗄️ **Serveur MCP Supabase Self-Hosted** - Gestion complète de votre instance Supabase privée
 
